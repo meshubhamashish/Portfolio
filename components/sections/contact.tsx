@@ -1,25 +1,31 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Package } from "lucide-react"
 
 export default function Contact() {
   const contacts = [
     {
       icon: Mail,
       label: "Email",
-      value: "shubham@example.com",
-      href: "mailto:shubham@example.com",
+      value: "shubhamashish@outlook.com",
+      href: "mailto:shubhamashish@outlook.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/shubham",
-      href: "https://linkedin.com/in/shubham",
+      value: "https://www.linkedin.com/in/shubham-ashish-770a87a9",
+      href: "https://www.linkedin.com/in/shubham-ashish-770a87a9",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/shubham",
-      href: "https://github.com/shubham",
+      value: "https://github.com/meshubhamashish",
+      href: "https://github.com/meshubhamashish",
+    },
+    {
+      icon: Package,
+      label: "NPM",
+      value: "https://www.npmjs.com/~shubhamashish",
+      href: "https://www.npmjs.com/~shubhamashish",
     },
   ]
 
@@ -36,21 +42,21 @@ export default function Contact() {
           </div>
 
           {/* Contact Links */}
-          <div className="grid sm:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {contacts.map((contact, idx) => {
               const Icon = contact.icon
               return (
                 <Button
                   key={idx}
                   variant="outline"
-                  className="h-auto flex-col items-start p-6 border-border/50 hover:bg-card/50 gap-3 bg-transparent"
+                  className="h-auto flex-col items-start p-6 border-border/50 hover:bg-card/50 gap-3 bg-transparent w-full"
                   asChild
                 >
                   <a href={contact.href} target="_blank" rel="noopener noreferrer">
-                    <Icon className="w-5 h-5 text-accent" />
-                    <div className="text-left">
+                    <Icon className="w-5 h-5 text-accent shrink-0" />
+                    <div className="text-left w-full">
                       <div className="text-xs text-muted-foreground font-medium">{contact.label}</div>
-                      <div className="text-sm font-semibold text-foreground mt-1">{contact.value}</div>
+                      <div className="text-sm font-semibold text-foreground mt-1 break-all whitespace-normal">{contact.value}</div>
                     </div>
                   </a>
                 </Button>

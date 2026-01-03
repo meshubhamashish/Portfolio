@@ -5,12 +5,30 @@ export default function About() {
         <div className="space-y-6">
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-widest text-accent mb-3">About</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed text-balance">
-              Innovative frontend engineer with <span className="font-semibold text-foreground">9+ years</span> of
-              experience building scalable, performant, and user-focused web products. Specialized in React, TypeScript,
-              Micro-frontends, WebSocket, and REST APIs. Proven success modernizing legacy Java systems into real-time
-              web platforms and building design systems that scale across teams.
-            </p>
+            <div className="text-lg text-muted-foreground leading-relaxed text-balance space-y-4">
+              <p>
+                Senior Frontend / Platform Engineer with <span className="font-semibold text-foreground">10+ years</span> of experience building scalable, performant,
+                and user-centric web platforms in product-based environments.
+              </p>
+              <p>
+                I specialize in modernizing legacy systems into robust, modern web platforms, designing frontend architectures that support real-time data, scale, and long-term maintainability.
+                My work focuses on translating complex business logic into clean, intuitive user experiences using React, TypeScript, REST APIs, and WebSocket-based systems.
+              </p>
+              <ul className="list-disc pl-6 space-y-1">
+                <span className="font-semibold text-foreground">My core strengths include:</span>
+                <li>Frontend architecture and platform engineering</li>
+                <li>Micro-Frontend systems and shared UI libraries</li>
+                <li>Performance optimization and large-scale UI rendering</li>
+                <li>Design systems and reusable component frameworks</li>
+              </ul>
+              <p>
+                I’ve worked across domains such as analytics, enterprise platforms, and healthcare systems,
+                collaborating closely with product, design, and backend teams to deliver reliable, production-grade solutions.
+              </p>
+              <p>
+                I enjoy solving complex UI and architectural problems and building frontend systems that scale gracefully without compromising user experience.
+              </p>
+            </div>
           </div>
 
           {/* Current role highlight */}

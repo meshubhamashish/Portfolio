@@ -25,7 +25,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Button size="lg" variant="outline" className="gap-2 bg-transparent" asChild>
-              <a href="#contact">
+              <a href="/Shubham_Ashish_Resume.pdf" download="Shubham_Ashish_Resume.pdf">
                 <Download className="w-4 h-4" />
                 Download Resume
               </a>
