@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     description: "Experienced frontend engineer specializing in React, TypeScript, and scalable web platforms.",
     type: "website",
   },
-  generator: 'v0.app'
+  generator: 'v0.app',
+  icons: {
+    icon: "/india_gate_center_clean.ico",
+  },
 }
 
 export default function RootLayout({
