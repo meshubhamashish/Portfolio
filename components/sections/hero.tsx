@@ -72,9 +72,9 @@ export default function Hero() {
 
           {/* Scroll indicator */}
           <div className="pt-12 animate-bounce">
-            <div className="w-6 h-10 mx-auto border-2 border-accent/30 rounded-full p-1">
+            <a href="#about" className="block w-6 h-10 mx-auto border-2 border-accent/30 rounded-full p-1 cursor-pointer hover:border-accent transition-colors" aria-label="Scroll to About section">
               <div className="w-1.5 h-3 bg-accent rounded-full mx-auto animate-pulse" />
-            </div>
+            </a>
           </div>
         </div>
       </div>

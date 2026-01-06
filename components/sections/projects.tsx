@@ -8,7 +8,7 @@ export default function Projects() {
       title: "IVR Web Platform",
       description:
         "Migrated legacy Java XML-based IVR system to modern React web application with real-time WebSocket communication and JSON-driven rendering.",
-      tags: ["React", "TypeScript", "WebSocket", "Node.js"],
+      tags: ["React", "JavaScript", "WebSocket", "Airthemetic", "Algebra"],
       impact: "40% faster load times, 25% smaller bundle",
       icon: "🚀",
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       title: "BHCOE Accreditation Platform",
       description:
         "Led full-stack development of health tech certification platform connecting healthcare providers with accreditation bodies.",
-      tags: ["React", "Angular", "Node.js", "MongoDB"],
+      tags: ["React", "Node.js", "MongoDB"],
       impact: "500+ institutions onboarded",
       icon: "🏥",
     },
